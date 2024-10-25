@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>1LoginPage.fxml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #bcbec4;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+1LoginPage.fxml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;UTF-8&quot;</span><span class="s0">?&gt;</span>
+
+<span class="s0">&lt;?</span><span class="s1">import </span><span class="s2">javafx.scene.control.Button</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;?</span><span class="s1">import </span><span class="s2">javafx.scene.control.Label</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;?</span><span class="s1">import </span><span class="s2">javafx.scene.control.PasswordField</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;?</span><span class="s1">import </span><span class="s2">javafx.scene.control.TextField</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;?</span><span class="s1">import </span><span class="s2">javafx.scene.layout.AnchorPane</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;?</span><span class="s1">import </span><span class="s2">javafx.scene.layout.StackPane</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;?</span><span class="s1">import </span><span class="s2">javafx.scene.text.Font</span><span class="s0">?&gt;</span>
+
+<span class="s0">&lt;StackPane </span><span class="s1">prefHeight</span><span class="s2">=&quot;700.0&quot; </span><span class="s1">prefWidth</span><span class="s2">=&quot;1200.0&quot; </span><span class="s1">xmlns</span><span class="s2">=&quot;http://javafx.com/javafx/8.0.171&quot; </span><span class="s1">xmlns:fx</span><span class="s2">=&quot;http://javafx.com/fxml/1&quot; </span><span class="s1">fx:controller</span><span class="s2">=&quot;ch.makery.PetShop.view.LoginController&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;stylesheets&gt;</span><span class="s3">@1LoginPage.css</span><span class="s0">&lt;/stylesheets&gt;</span>
+    <span class="s0">&lt;children&gt;</span>
+        <span class="s0">&lt;AnchorPane </span><span class="s1">fx:id</span><span class="s2">=&quot;Main_form&quot; </span><span class="s1">styleClass</span><span class="s2">=&quot;root&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;children&gt;</span>
+            <span class="s0">&lt;AnchorPane </span><span class="s1">layoutX</span><span class="s2">=&quot;610.0&quot; </span><span class="s1">prefHeight</span><span class="s2">=&quot;700.0&quot; </span><span class="s1">prefWidth</span><span class="s2">=&quot;590.0&quot; </span><span class="s1">styleClass</span><span class="s2">=&quot;leftPane&quot;</span><span class="s0">&gt;</span>
+               <span class="s0">&lt;children&gt;</span>
+                  <span class="s0">&lt;Label </span><span class="s1">layoutX</span><span class="s2">=&quot;224.0&quot; </span><span class="s1">layoutY</span><span class="s2">=&quot;291.0&quot; </span><span class="s1">prefHeight</span><span class="s2">=&quot;50.0&quot; </span><span class="s1">prefWidth</span><span class="s2">=&quot;170.0&quot; </span><span class="s1">styleClass</span><span class="s2">=&quot;Label&quot; </span><span class="s1">text</span><span class="s2">=&quot;Pet Shop &quot;</span><span class="s0">&gt;</span>
+                     <span class="s0">&lt;font&gt;</span>
+                        <span class="s0">&lt;Font </span><span class="s1">name</span><span class="s2">=&quot;System Bold&quot; </span><span class="s1">size</span><span class="s2">=&quot;34.0&quot; </span><span class="s0">/&gt;</span>
+                     <span class="s0">&lt;/font&gt;</span>
+                  <span class="s0">&lt;/Label&gt;</span>
+                  <span class="s0">&lt;Label </span><span class="s1">layoutX</span><span class="s2">=&quot;131.0&quot; </span><span class="s1">layoutY</span><span class="s2">=&quot;342.0&quot; </span><span class="s1">prefHeight</span><span class="s2">=&quot;44.0&quot; </span><span class="s1">prefWidth</span><span class="s2">=&quot;401.0&quot; </span><span class="s1">styleClass</span><span class="s2">=&quot;Label&quot; </span><span class="s1">text</span><span class="s2">=&quot;Management System &quot;</span><span class="s0">&gt;</span>
+                     <span class="s0">&lt;font&gt;</span>
+                        <span class="s0">&lt;Font </span><span class="s1">name</span><span class="s2">=&quot;System Bold&quot; </span><span class="s1">size</span><span class="s2">=&quot;34.0&quot; </span><span class="s0">/&gt;</span>
+                     <span class="s0">&lt;/font&gt;</span>
+                  <span class="s0">&lt;/Label&gt;</span>
+               <span class="s0">&lt;/children&gt;</span>
+            <span class="s0">&lt;/AnchorPane&gt;</span>
+                <span class="s0">&lt;Label </span><span class="s1">layoutX</span><span class="s2">=&quot;132.0&quot; </span><span class="s1">layoutY</span><span class="s2">=&quot;227.0&quot; </span><span class="s1">styleClass</span><span class="s2">=&quot;Label&quot; </span><span class="s1">text</span><span class="s2">=&quot;Welcome Back!&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;font&gt;</span>
+                        <span class="s0">&lt;Font </span><span class="s1">name</span><span class="s2">=&quot;System Bold&quot; </span><span class="s1">size</span><span class="s2">=&quot;46.0&quot; </span><span class="s0">/&gt;</span>
+                    <span class="s0">&lt;/font&gt;</span>
+                <span class="s0">&lt;/Label&gt;</span>
+                <span class="s0">&lt;TextField </span><span class="s1">fx:id</span><span class="s2">=&quot;UsernameButton&quot; </span><span class="s1">layoutX</span><span class="s2">=&quot;148.0&quot; </span><span class="s1">layoutY</span><span class="s2">=&quot;316.0&quot; </span><span class="s1">prefHeight</span><span class="s2">=&quot;60.0&quot; </span><span class="s1">prefWidth</span><span class="s2">=&quot;300.0&quot; </span><span class="s1">promptText</span><span class="s2">=&quot;Username&quot; </span><span class="s0">/&gt;</span>
+                <span class="s0">&lt;PasswordField </span><span class="s1">fx:id</span><span class="s2">=&quot;PasswordButton&quot; </span><span class="s1">layoutX</span><span class="s2">=&quot;148.0&quot; </span><span class="s1">layoutY</span><span class="s2">=&quot;410.0&quot; </span><span class="s1">prefHeight</span><span class="s2">=&quot;60.0&quot; </span><span class="s1">prefWidth</span><span class="s2">=&quot;300.0&quot; </span><span class="s1">promptText</span><span class="s2">=&quot;Password&quot; </span><span class="s0">/&gt;</span>
+                <span class="s0">&lt;Button </span><span class="s1">fx:id</span><span class="s2">=&quot;LoginButton&quot; </span><span class="s1">layoutX</span><span class="s2">=&quot;148.0&quot; </span><span class="s1">layoutY</span><span class="s2">=&quot;501.0&quot; </span><span class="s1">mnemonicParsing</span><span class="s2">=&quot;false&quot; </span><span class="s1">onAction</span><span class="s2">=&quot;#handleLogin&quot; </span><span class="s1">prefHeight</span><span class="s2">=&quot;80.0&quot; </span><span class="s1">prefWidth</span><span class="s2">=&quot;300.0&quot; </span><span class="s1">text</span><span class="s2">=&quot;Login&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;font&gt;</span>
+                        <span class="s0">&lt;Font </span><span class="s1">name</span><span class="s2">=&quot;Arial&quot; </span><span class="s1">size</span><span class="s2">=&quot;15.0&quot; </span><span class="s0">/&gt;</span>
+                    <span class="s0">&lt;/font&gt;</span>
+                <span class="s0">&lt;/Button&gt;</span>
+                <span class="s0">&lt;Button </span><span class="s1">fx:id</span><span class="s2">=&quot;ClosedButton&quot; </span><span class="s1">layoutY</span><span class="s2">=&quot;-1.0&quot; </span><span class="s1">mnemonicParsing</span><span class="s2">=&quot;false&quot; </span><span class="s1">onAction</span><span class="s2">=&quot;#handleClose&quot; </span><span class="s1">prefHeight</span><span class="s2">=&quot;40.0&quot; </span><span class="s1">prefWidth</span><span class="s2">=&quot;70.0&quot; </span><span class="s1">styleClass</span><span class="s2">=&quot;ClosedButton&quot; </span><span class="s1">text</span><span class="s2">=&quot;X&quot; </span><span class="s1">AnchorPane.leftAnchor</span><span class="s2">=&quot;2.0&quot; </span><span class="s1">AnchorPane.topAnchor</span><span class="s2">=&quot;2.0&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;font&gt;</span>
+                        <span class="s0">&lt;Font </span><span class="s1">name</span><span class="s2">=&quot;System Bold&quot; </span><span class="s1">size</span><span class="s2">=&quot;23.0&quot; </span><span class="s0">/&gt;</span>
+                    <span class="s0">&lt;/font&gt;</span>
+                <span class="s0">&lt;/Button&gt;</span>
+            <span class="s0">&lt;/children&gt;</span>
+        <span class="s0">&lt;/AnchorPane&gt;</span>
+    <span class="s0">&lt;/children&gt;</span>
+<span class="s0">&lt;/StackPane&gt;</span>
+</pre>
+</body>
+</html>
