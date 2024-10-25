@@ -32,7 +32,7 @@ object MainApp extends JFXApp {
   PetData += new Pet("Dog", "Beagle", "Female", 1, 40.0)
 
   // Transform path of 1LoginPage.fxml to URI for resource location.
-  val rootResource = getClass.getResource("/ch/makery/PetShop/view/1LoginPage.fxml")
+  val rootResource = getClass.getResource("/main/resource/1LoginPage.fxml")
   // Initialize the loader object.
   val loader = new FXMLLoader(rootResource, NoDependencyResolver)
   // Load root layout from fxml file.
@@ -49,7 +49,7 @@ object MainApp extends JFXApp {
 
   // Actions for displaying LoginPage window
   def show1LoginPage(): Unit = {
-    val resource = getClass.getResource("/ch/makery/PetShop/view/1LoginPage.fxml")
+    val resource = getClass.getResource("/main/resource/1LoginPage.fxml")
     val loader = new FXMLLoader(resource, NoDependencyResolver)
     val stackPaneRoot = loader.load[jfxs.layout.StackPane]()
     stage.scene().setRoot(stackPaneRoot)
@@ -57,7 +57,7 @@ object MainApp extends JFXApp {
 
   // Actions for displaying DashboardPage window
   def showDashboardPage(): Unit = {
-    val resource = getClass.getResource("/ch/makery/PetShop/view/2DashBoardPage.fxml")
+    val resource = getClass.getResource("/main/resource/2DashboardPage.fxml")
     val loader = new FXMLLoader(resource, NoDependencyResolver)
     val stackPaneRoot: jfxs.layout.StackPane = loader.load[jfxs.layout.StackPane]()
     stage.scene().setRoot(stackPaneRoot)
