@@ -1,1 +1,104 @@
+.top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+}
 
+.semi-top-form{
+    -fx-background-color: #efefef;
+    -fx-border-color:#000;
+}
+
+.ClosedButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #000;
+}
+
+.ClosedButton:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: red;
+}
+
+.MinimizedButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #000;
+}
+
+.MinimizedButton:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: red;
+}
+
+.Nav-form {
+    -fx-background-color: #3a4660;
+}
+
+.Nav-half-form{
+    -fx-background-color: #D5E3F0;
+}
+
+.Nav-button{
+    -fx-background-color: transparent;
+    -fx-cursor:hand;
+    -fx-text-fill: #FFFFFF;
+    -fx-alignment:CENTER_LEFT;
+}
+
+.LogOutButton {
+    -fx-background-color: #FFFFFF;
+    -fx-cursor:hand;
+    -fx-text-fill: #000;
+}
+
+.LogOutButton:hover {
+    -fx-background-color: #3a4660;
+}
+
+.text-field{
+    -fx-background-color: transparent;
+    -fx-border-color: #000;
+    -fx-font-family: "Tahoma";
+}
+.text-field:focused{
+    -fx-border-color: #d4dcdd;
+}
+
+.search{
+    -fx-background-color: transparent;
+    -fx-border-color: #000;
+    -fx-font-family: "Tahoma";
+}
+
+.search:focused {
+    -fx-border-color: #d4dcdd;
+}
+
+.table-view.column-header-background{
+    -fx-background-color: #e6fbfa;
+    -fx-text-fill: #000;
+    -fx-background-inset:0 0 0 0;
+}
+
+.table-view.column-header.label{
+    -fx-text-fill: #000;
+    -fx-font-family: "Tahoma";
+}
+
+.Buttons {
+    -fx-background-color: #FFFFFF;
+    -fx-cursor:hand;
+    -fx-text-fill: #000;
+}
+
+.Buttons:hover {
+    -fx-background-color: #D5E3F0;
+}
+
+.Add-PayButtons {
+    -fx-background-color: #D5E3F0;
+    -fx-cursor:hand;
+    -fx-text-fill: #000;
+}
+
+.Add-PayButtons:hover {
+    -fx-background-color: #acf876;
+}
