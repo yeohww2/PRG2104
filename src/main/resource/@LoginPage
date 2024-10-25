@@ -1,1 +1,42 @@
+.root {
+    -fx-background-color: #3a4660;
+    -fx-fill: white;
+}
 
+.leftPane {
+    -fx-background-color: #FFFFFF;
+}
+
+.Label {
+    -fx-text-fill: black;
+}
+
+.TextField, .PasswordField {
+    -fx-background-color: #d3d3d3;
+    -fx-border-color: #0000FF;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+}
+
+#LoginButton {
+    -fx-background-color: #8B0000;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 5;
+    -fx-border-width: 0;
+}
+
+#LoginButton:hover {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #8B0000;
+}
+
+.ClosedButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+}
+
+.ClosedButton:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: red;
+}
